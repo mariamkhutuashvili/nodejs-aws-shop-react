@@ -23,6 +23,15 @@ const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     <>
       <Header />
       <main>
+        <Typography
+          component="h1"
+          variant="h1"
+          align="center"
+          color="red"
+          mb={2}
+        >
+          Hello Guest!
+        </Typography>
         <Container sx={{ pb: 8 }} maxWidth="md">
           {children}
         </Container>
